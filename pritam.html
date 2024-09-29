@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link rel="shortcut icon" href="https://res.cloudinary.com/dlt4ash36/image/upload/v1700793821/spotify-favicon_wfede0.png" type="image/x-icon">
+
+  <!-- Linking external css file -->
+  <link rel="stylesheet" href="./spotify-style.css" />
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+
+  <title>Spotify - Pritam</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-nav">
+            <div class="logo">
+                <a href=""><img src="./images/logo-new.png" alt=""></a>
+            </div>
+              <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    <span>Home</span>
+                </a></li>
+
+                <li><a href="">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span>Search</span>
+                </a></li>
+              </ul>        
+        </div>
+
+        <div class="sidebar-nav box2">
+            
+              <ul>
+                <li><a href="">
+                    <span><i class="fa-solid fa-book"></i></span>
+                    <span class="library">Your Library</span>
+                </a></li>
+
+                <li>
+                    <div class="sidebar-scroll">
+                        <div class="create-playlist">
+                            <h4>Create your first playlist</h4>
+                            <p>It's easy, we'll help you</p>
+                            <button>Create Playlist</button>
+                        </div>
+                        <div class="create-playlist">
+                            <h4>Let's find some podcasts to follow</h4>
+                            <p>We'll keep you updated on new episides</p>
+                            <button>Browse podcasts</button>
+                        </div>
+                    </div>
+                </li>
+              </ul>   
+              
+              <div class="privacy">
+                <ul>
+                    <li>
+                        <a href="">Legal</a>
+                        <a href="">Safety & Privacy Center</a>
+                        <a href="">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="">Cookies</a>
+                        <a href="">About Ads</a>
+                        <a href="">Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="">Cookies</a>
+                       
+                    </li>
+    
+                </ul>
+            </div>
+            
+            <div class="eng-btn">
+                <button>English</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Main Section -->
+    <main>
+      <div class="main-section">
+
+        <section class="home-page">
+          <div class="playlist-sponsored">
+            <p>PLAYLIST</p>
+            <!-- <span>SPONSERED</span> -->
+          </div>
+          <div class="trending-home-container">
+            <a href="#"><img src="https://res.cloudinary.com/dlt4ash36/image/upload/v1700793770/play-song_qvjwqd.jpg"
+                alt="cover" class="home-playlist-cover"></a>
+            <div class="trending-song-container">
+              <h1>Trending Song 2024 Hindi</h1>
+              <p>Listen to the biggest trending song on Instagram... Only on the Trending Insta Reels
+                Playlist! Follow Now! </p>
+              <div class="home-buttons">
+                <button id="play-btn-home">Play</button>
+                <button id="follow-btn">Follow</button>
+                <i class="fa-solid fa-ellipsis fa-xl home-more-btn"></i>
+                <div class="more-playlist">More</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Home Page Song Collection-->
+        <section class="user-likes">
+          <div class="user-likes-title">
+            <h1>Popular song</h1>
+            <p>SHOW ALL</p>
+          </div>
+
+          <div class="cards">
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://i.ytimg.com/vi/xr5G7UoGmsg/maxresdefault.jpg">
+                <h4 class="song-title">Top Hindi Tracks of all time</h4>
+                <p class="song-artist">Catch the best of all time</p>
+                <i id="0" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://i.ytimg.com/vi/lp3SwbP3GHA/maxresdefault.jpg">
+                <h4 class="song-title">Sad Hindi Melodies</h4>
+                <p class="song-artist">Soulful tunes for the heart.</p>
+                <i id="1" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://i0.wp.com/celebritytadka.com/wp-content/uploads/2019/10/Tum-Hi-Aana-Song.jpg?resize=768%2C432&ssl=1">
+                <h4 class="song-title">Top Hindi Romantics</h4>
+                <p class="song-artist">Fall in love with romantic songs</p>
+                <i id="2" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://is3-ssl.mzstatic.com/image/thumb/Music112/v4/e5/f8/ea/e5f8eaf4-1855-01fd-5287-938405d82672/8903431906946_cover.jpg/1200x1200bf-60.jpg">
+                <h4 class="song-title">New Music Hindi</h4>
+                <p class="song-artist">Latest Hindi Songs | 2023</p>
+                <i id="3" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://i.ytimg.com/vi/UHOw6RBIrDs/maxresdefault.jpg">
+                <h4 class="song-title">Bollybood Mush</h4>
+                <p class="song-artist">Songs be the love story</p>
+                <i id="4" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        
+        <!-- Favourite Song -->
+        <section class="user-likes">
+          <div class="user-likes-title">
+            <h1>Favourite song</h1>
+            <p>SHOW ALL</p>
+          </div>
+          <div class="cards">
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://th.bing.com/th/id/OIP.KvsJS_v-oidI-_cMZv2vQgAAAA?rs=1&pid=ImgDetMain">
+                <h4 class="song-title">Top Hindi</h4>
+                <p class="song-artist">The essential tracks, all in one playlist.</p>
+                <i id="20" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://i.ytimg.com/vi/bMULAX-87aU/maxresdefault.jpg">
+                <h4 class="song-title">New Music Hindi</h4>
+                <p class="song-artist">The essential tracks, all in one playlist.</p>
+                <i id="21" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://i.ytimg.com/vi/PllZvUaLiEg/maxresdefault.jpg">
+                <h4 class="song-title">Bollybood Mush</h4>
+                <p class="song-artist">The essential tracks, all in one playlist.</p>
+                <i id="22" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://i.ytimg.com/vi/dDwKUsCyOLY/maxresdefault.jpg">
+                <h4 class="song-title">Piya</h4>
+                <p class="song-artist">The essential tracks, all in one playlist.</p>
+                <i id="23" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+
+            <div class="song-cards">
+              <div class="song-cover">
+                <img src="https://www.iwmbuzz.com/wp-content/uploads/2024/06/get-ready-to-immerse-yourself-in-the-tunes-of-true-love-with-auron-mein-kahan-dum-thas-first-song-tuu.jpg">
+                <h4 class="song-title">Party Vibes of all time</h4>
+                <p class="song-artist">Chirratan Bhatt</p>
+                <i id="24" class=" fa-solid fa-circle-play fa-3x cover-play-btn"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer Section Start-->
+  <footer>
+    <div class="footer-section">
+      <section class="song-details">
+        <img src="https://res.cloudinary.com/dlt4ash36/image/upload/v1700793770/play-song_qvjwqd.jpg" alt="play-song"
+          id="masterCover">
+        <div class="playing-song-info">
+          <div class="song-info">
+            <h1 id="masterSongTitle">Raataan-Lambiyan</h1>
+            <p id="masterSongInfo">Tanishk Bagchi, Jubin Nautial, Asees Kaur</p>
+          </div>
+          <i class="fa-regular fa-heart" id="fav-song"></i>
+        </div>
+      </section>
+
+      <section class="song-status">
+        <div class="song-control">
+          <i class="fa-solid fa-shuffle" id="shuffleMusic"></i>
+          <p class="shuffle">Enable shuffle</p>
+          <div id="shuffle-enable-indicator"></div>
+          <i class="fa-solid fa-backward-step" id="previous"></i>
+          <p class="previous">Previous</p>
+          <i class="fa-solid fa-circle-play fa-2x" id="masterPlayBtn"></i>
+          <p class="play">Play</p>
+          <i class="fa-sharp fa-solid fa-forward-step" id="next"></i>
+          <p class="next">Next</p>
+          <i class="fa-solid fa-repeat" id="repeatMode"></i>
+          <p class="enable-disable-repeat">Enable repeat</p>
+          <div id="repeat-enable-indicator">1</div>
+        </div>
+
+        <div class="progressbar-container">
+          <span id="musicStart">0:00</span>
+          <div class="custom-progress">
+            <div class="progress-bar" id="customProgressBar">
+              <div class="progress" id="customProgress"></div>
+              <div class="progress-thumb" id="customProgressThumb"></div>
+            </div>
+          </div>
+          <span id="musicEnd">0:00</span>
+        </div>
+      </section>
+
+      <section class="song-directory">
+        <a href="./rata-lambeya-lyrics.html"> <i class="fa-solid fa-music"></i>
+ <p class="lyrics">Lyric</p>  </a>
+        <i class="fa-solid fa-bars song-queue"></i>
+        <p class="queue">Queue</p>
+        <i class="fa-solid fa-computer"></i>
+        <p class="connectivity">Connect to a device</p>
+        <i class="fa-solid fa-duotone fa-volume-high" id="volIcon"></i>
+        <p class="mute">Mute</p>
+        <input type="range" value="100" min="1" max="100" step="1" class="volume-seekbar">
+      </section>
+    </div>
+
+
+    <div class="preview">
+        <div class="text">
+            <h4>Preview of Spotify</h4>
+            <p>Sign up to get unlimited songs and podcasts with occassional ads. No credit card needed.</p>
+        </div>
+
+        <div class="button">
+            <button>Sign up free</button>
+        </div>
+    </div>
+
+  </footer>
+
+
+
+  <!-- Footer Section End-->
+
+  <!-- External javascript -->
+  <script src="./app.js"></script>
+
+  <!-- Fonth Awesome Link -->
+  <script src="https://kit.fontawesome.com/5ad84bde35.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
